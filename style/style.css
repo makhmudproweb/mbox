@@ -314,6 +314,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .genres_card:nth-child(2) {

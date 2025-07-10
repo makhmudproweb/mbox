@@ -9,6 +9,12 @@
         overflow: hidden;
         overflow-x: scroll;
     }
+    .img_box1::-webkit-scrollbar {
+        height: 0;
+    }
+    .img_box2::-webkit-scrollbar {
+        height: 0;
+    }
     .actor_cards {
         gap: 35px;
     }
@@ -63,6 +69,12 @@
     .bunny_box {
         width: 100%;
     }
+    .title {
+        font-size: 26px;
+    }
+    .actor_cards::-webkit-scrollbar {
+        height: 0;
+    }
 }
 
 @media(max-width: 1200px) {
@@ -111,6 +123,12 @@
         grid-template-rows: repeat(2, auto);
         gap: 40px;
       }
+      .title {
+        font-size: 24px;
+      }
+      .section_title {
+        margin: 45px 0 35px 0;
+      }
 }
 
 @media(max-width: 960px) {
@@ -149,10 +167,114 @@
     .register {
         padding: 13px 28px;
     }
+    .register_text {
+        margin-right: 0;
+    }
 }
 
 @media(max-width: 700px) {
     .register_text {
         font-size: 35px;
+    }
+    .footer {
+        height: 500px;
+    }
+    .logo_footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .socials {
+        align-items: center;
+    }
+    .footer_box {
+        padding-top: 60px;
+        flex-direction: column;
+    }
+    .footer_link {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 550px) {
+    .header_txt {
+        width: 362px;
+    }
+    .header_box {
+        margin-left: 10px;
+    }
+    .header_btn {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .nav_icons {
+        display: none;
+    }
+    .footer_list {
+        flex-direction: column;
+    }
+    .bunny {
+        width: 100%;
+    }
+    .register_box {
+        width: 100%;
+    }
+    .register_text {
+        font-size: 30px;
+    } 
+    .genres_cards {
+        width: 100%;
+    }
+    .genres_cards img {
+        width: 45px;
+    }
+    .genres_text {
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 390px) {
+    .hr {
+        margin: 15px 0;
+    }
+    .info {
+        gap: 10px;
+    }
+    .header_title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .header_txt {
+        font-size: 18px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .header_moreinfo {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    .genres_cards img {
+        width: 35px;
+    }
+    .genres_text {
+        font-size: 20px;
+    }
+    .actor_cards img {
+        width: 150px;
+    }
+    .coming_soon {
+        font-size: 40px;
+    }
+    .movie_img {
+        width: 150px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .logo {
+        width: 130px;
     }
 }
