@@ -1,0 +1,158 @@
+@media(max-width: 1400px) {
+    .img_box1 {
+        gap: 41px;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .img_box2 {
+        gap: 35px;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .actor_cards {
+        gap: 35px;
+    }
+    .coming_soon {
+        font-size: 50px;
+    }
+    .register_box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .genres_cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .bunny {
+        max-width: 800px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1330px) {
+    .actor_cards {
+        gap: 25px;
+    }
+    .date {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bunny_box{
+        margin-bottom: 290px;
+    }
+    .bunny {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    .register_text {
+        font-size: 55px;
+    }
+    .bunny_box {
+        background: none;
+    }
+}
+
+@media(max-width: 1270px) {
+    .actor_cards {
+        gap: 10px;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .bunny_box {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .bunny_box {
+        flex-wrap: wrap;
+        background: none;
+    }
+}
+
+@media(max-width: 1000px) {
+    .header_box {
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    .header_btn {
+        margin-left: 50px;
+    }
+    .menu {
+        display: block;
+    }
+    .nav_box {
+        justify-content: space-between;
+    }
+    .nav_list {
+        display: none;
+        position: absolute;
+        top: 58px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background: transparent;
+        padding: 10px 0;
+        z-index: 100;
+    }
+    .menu:focus~.nav_list {
+        display: block;
+    }
+     .nav_list li {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+  }
+      .footer_list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 40px;
+      }
+}
+
+@media(max-width: 960px) {
+    .register_text {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 785px) {
+    .header {
+        height: 620px;
+    }
+    .header_title {
+        font-size: 60px;
+    }
+    .info {
+        font-size: 16px;
+    }
+    .header_txt {
+        font-size: 16px;
+    }
+    .header_watch {
+        width: 125px;
+        height: 40px;
+    }
+    .header_moreinfo {
+        padding: 10px 15px;
+    }
+    .register_box {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .register {
+        padding: 13px 28px;
+    }
+}
+
+@media(max-width: 700px) {
+    .register_text {
+        font-size: 35px;
+    }
+}
